@@ -1,10 +1,9 @@
 function changeColor(event) {
     const button = event.target
-    const from_color = button.attributes.from_color.value
-    const to_color = button.attributes.to_color.value
+    const color = button.attributes.color.value
 
     const square = document.getElementById('square')
-    square.classList.replace(from_color, to_color)
+    square.className = `square ${color}`
 }
 
 const blue_button = document.getElementById('blue_button')
