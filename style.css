@@ -3,7 +3,7 @@
     margin: 1rem;
 }
 
-.cuadro {
+.square {
     --size:200px;
     width:var(--size);
     height:var(--size);
